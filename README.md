@@ -14,5 +14,5 @@ A função **lpi_icmbio** ainda precisa de vários ajustes e qualquer contribui�
 
 Por exemplo, verificou-se que os intervalos de confiança nos gráficos gerados estão muito altos (ver figura abaixo). EM parte isso se deve ao pequeno tamanho amostral por UC (três trilhas somente), mas sem dúvida isso se deve também à inclusão de todas as espécies no cálculo. Provavelmente precisaremos definir critérios para inclusão de espécies no cálculo do LPI.
 
-![alt text](/home/elildojr/Pictures/lpi cazumba)
+![image](https://user-images.githubusercontent.com/39089964/46036611-4e12e780-c0dc-11e8-94d2-6e66d98edc30.png)
 
