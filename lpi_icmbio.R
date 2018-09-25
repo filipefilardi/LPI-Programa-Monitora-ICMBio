@@ -73,11 +73,14 @@ lpi_icmbio <- function(x,y,z) # x = dados, y = UC, z = Classe
   
 } # Fim da função
 
-lpi_icmbio(dados2)
-lpi_icmbio(dados2,z="Mamíferos")
-lpi_icmbio(dados2,z="Aves")
 
-lpi_icmbio(dados2, "Resex Cazumbá-Iracema")
+# Testando a função
+
+lpi_icmbio(dados2) # cálculo do LPI para todo o conjunto de dados do ICMBio
+lpi_icmbio(dados2,z="Mamíferos") # cálculo somente para mamíferos
+lpi_icmbio(dados2,z="Aves") # somente para aves
+
+lpi_icmbio(dados2, "Resex Cazumbá-Iracema") # Somente Cazumbá-Iracema
 lpi_icmbio(dados2, "Resex Cazumbá-Iracema", "Mamíferos")
 lpi_icmbio(dados2, "Resex Cazumbá-Iracema", "Aves")
 
